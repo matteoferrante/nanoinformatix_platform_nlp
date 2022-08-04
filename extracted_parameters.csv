@@ -1,0 +1,106 @@
+﻿;parameter_id;parameter_name;description
+0;reach_endpoint;Endpoint;Please select the endpoint.
+1;hde_assessment;Assesment type;Please select assessment type for deriving a Derived No-Effect Level (DNEL).
+2;deterministic_assessment_approach;Assesment approach;Please select the approach for selecting default Assessment Factors.
+3;deterministic_pod_value;PoD value;Please insert PoD value. Please insert BMDL value in case of BMD PoD, NOAEL/LOAEL value else.
+4;dnel_units;Units of measure;Please specify units of measure.
+5;deterministic_dataroute;Route of exposure;Please specify the route of exposure.
+6;deterministic_pod_correction_factor;PoD correction factor;Please insert optional correction factor for the PoD. This may be used, if appropriate, for inhalation studies.
+7;deterministic_test_species;Test species;Please select test species.
+8;deterministic_target_population;Target population;Please select target population.
+9;deterministic_show_computed;Show computed inputs?;Show computed Assessment Factors (NB: Assessment Factors are editable).
+10;deterministic_interspecies_af;Interspecies AF;Assessment factor for correcting differences in metabolic rates (i.e. allometric factor).
+11;deterministic_remaining_differences_af;Remaining Differences;Assessment factor for remaining differences among species
+12;deterministic_intraspecies_af;Intraspecies AF;Assessment factor accounting intraspecies extrapolation.
+13;deterministic_exposure_duration_af;Duration AF;Assessment factor exposure duration extrapolation.
+14;deterministic_dose_response_af;Dose-Response AF;Assessment factor accounting for reliability of dose-response,  NOAEL/LOAEL extrapolation and severity of effects.
+15;deterministic_other_afs;Other AF;Other assessment factors (e.g.: quality of dataset, following evaluation of completeness and consistency  of available data, or reliability of alternative data).
+16;dnel;DNEL;Deterministic Derived No Effect Level (DNEL).
+17;exposure_units;Exposure units of measure;Please specify exposure units of measure.
+18;bw;Body weight;Please specify average body weight (in kilograms) of workers.
+19;sa_contact;Surface contact area;Please specify the surface contact area between hand and mouth, expressed in cm^2 (default is for single finger).
+20;load_min;Hand loading (min);Please insert minimum value (expressed in ng/cm^2) of hand loading.
+21;load_max;Hand loading (max);Please insert maximum value (expressed in ng/cm^2) of hand loading.
+22;choose_n;Is contacts number estimated?;I already have an estimate of the number of hand-to-mouth contacts per day.
+23;n_contacts;Number of contacts;Please specify the number of hand-to-mouth contacts per day.
+24;gloves;Are gloves worn?;Gloves are worn during the shift work.
+25;gloves75;Are gloves worn for more than 75% of the shift work?;Gloves are worn for at least 75% of the shift work.
+26;rpe50;Is an RPE worn?;A respiratory protective equipment is worn for more than 50% of the shift work.
+27;job_prof;Job profile;Which option best describes the way a typical workerâ€™s time is spent during a normal shift? Please choose between Job profile 1 or Job profile 2.
+28;te_datatype;Transfer Efficiency data type;Please specify data type of the transfer coefficient of material from hand to mouth (i.e. the percentage of material which is likely to be transferred from hands to the mouth).
+29;deterministic_te;Transfer Efficiency;Please specify the transfer coefficient.
+30;probabilistic_te_distribution;Transfer Efficiency distribution;Please select a proper distribution for the transfer coefficient.
+31;probabilistic_te_lcl;LCL of Transfer Efficiency;Please insert the Lower Confidence Level of the transfer coefficient.
+32;probabilistic_te_ucl;UCL of Transfer Efficiency;Please insert the Upper Confidence Level of the transfer coefficient.
+33;n_sims;Number of simulations;Please specify the number of simulations to perform.
+34;probabilistic_exposure;Inadvertent ingestion exposure (raw);Probabilistic inadvertent ingestion exposure (empirical data). Exposure is estimated from the estimated quantity of substance in the peri-oral area (i.e., the area surrounding the mouth).
+35;exposure;Inadvertent ingestion exposure;Deterministic inadvertent ingestion exposure. Exposure is estimated from the estimated quantity of substance in the peri-oral area (i.e., the area surrounding the mouth).
+36;exposure_ci_05;Inadvertent ingestion exposure (lcl);Lower Confidence Limit (5%) of the inadvertent ingestion exposure distribution. Exposure is estimated from the estimated quantity of substance in the peri-oral area (i.e., the area surrounding the mouth).
+37;exposure_ci_95;Inadvertent ingestion exposure (ucl);Upper Confidence Limit (95%) of the inadvertent ingestion exposure distribution. Exposure is estimated from the estimated quantity of substance in the peri-oral area (i.e., the area surrounding the mouth).
+38;exposure_uncertainty;Exposure uncertainty;Sources of uncertainty (inadvertent ingestion exposure).
+39;reach_endpoint;Endpoint;Please select the endpoint.
+40;effect_datatype;Effect datatype;Please select data type for estimated effect.
+41;effect_units;Units of measure;Please specify units of measure.
+42;effect;Effect;Please insert the deterministic effect estimate.
+43;effect_distribution;Effect distribution;Please select a proper distribution for effects.
+44;effect_distribution_statistics;Distribution statistics;Please select which statistics you are going to insert for the distribution.
+45;effect_ci_05;Effect LCL;Please insert effect LCL.
+46;effect_ci_95;Effect UCL;Please insert effect UCL.
+47;effect_mean;Effect (geo)mean;Please insert effect (geo)mean value.
+48;effect_sd;Effect (Geo)SD;Please insert effect (Geo)SD.
+49;effect_min;Effect Min;Please insert minimum value for effect.
+50;effect_max;Effect Max;Please insert maximum value for effect.
+51;effect_raw;Effect (raw data);Please upload or edit effect raw data.
+52;exposure_units;Exposure units of measure;Please specify exposure units of measure.
+53;exposure_datatype;Exposure datatype;Please select data type for estimated Exposure.
+54;exposure;Deterministic exposure;Deterministic exposure.
+55;exposure_distribution;Exposure distribution;Please select a proper distribution for exposure.
+56;exposure_distribution_statistics;Distribution statistics;Please select which statistics you are going to insert for the distribution.
+57;exposure_ci_05;Exposure LCL;Please insert exposure LCL.
+58;exposure_ci_95;Exposure UCL;Please insert exposure UCL.
+59;exposure_mean;Exposure mean;Please insert exposure mean value.
+60;exposure_sd;Exposure SD;Please insert exposure SD.
+61;exposure_min;Exposure Min;Please insert minimum value for exposure.
+62;exposure_max;Exposure Max;Please insert maximum value for exposure.
+63;exposure_raw;Exposure (raw data);Please upload or edit exposure raw data.
+64;exposure_reduction_factor;Reduction factor;Please insert an estimate of the exposure reduction factor in the range [0,1] after the application of TARMMs (if any).
+65;pnec_datatype;PNEC datatype;Please select data type for estimated PNEC.
+66;pnec_units;Units of measure;Please specify units of measure.
+67;pnec;PNEC;Please insert the deterministic PNEC estimate.
+68;pnec_distribution;PNEC distribution;Please select a proper distribution for the PNEC.
+69;pnec_distribution_statistics;Distribution statistics;Please select which statistics you are going to insert for the distribution.
+70;pnec_ci_05;PNEC LCL;Please insert PNEC LCL.
+71;pnec_ci_95;PNEC UCL;Please insert PNEC UCL.
+72;pnec_mean;PNEC mean;Please insert PNEC mean value.
+73;pnec_sd;PNEC SD;Please insert PNEC SD.
+74;pnec_min;PNEC Min;Please insert minimum value of PNEC.
+75;pnec_max;PNEC Max;Please insert maximum value of PNEC.
+76;pnec_raw;PNEC (raw data);Please upload or edit PNEC raw data.
+77;pec_units;PEC units of measure;Please specify PEC units of measure.
+78;pec_datatype;PEC datatype;Please select data type for estimated PEC.
+79;pec;Deterministic PEC;Deterministic PEC.
+80;pec_distribution;PEC distribution;Please select a proper PEC distribution.
+81;pec_distribution_statistics;Distribution statistics;Please select which statistics you are going to insert for the distribution.
+82;pec_ci_05;PEC LCL;Please insert PEC LCL.
+83;pec_ci_95;pec UCL;Please insert PEC UCL.
+84;pec_mean;PEC mean;Please insert PEC mean value.
+85;pec_sd;PEC SD;Please insert PEC SD.
+86;pec_min;PEC Min;Please insert minimum value for PEC.
+87;pec_max;PEC Max;Please insert maximum value for PEC.
+88;pec_raw;PEC (raw data);Please upload or edit PEC raw data.
+89;deterministic_risk_assessment;Risk estimate;Deterministic Risk Assessment results
+90;probabilistic_risk_assessment;Probabilistic risk estimate;Probabilistic Risk Assessment results
+91;risk_rcr;Risk estimate (empirical data);Probabilistic Risk Assessment results: Risk Characterization Ratio
+92;input_data;Input data;Please select, upload or manually insert data.
+93;dose_column_name;Dose column name;Please select dose column name.
+94;response_column_name;Response column name;Please select response column name.
+95;bmr;Benchmark Response;Please insert BMR value.
+96;dose_units;Units of measure;Please specify units of measure for the dose.
+97;deterministic_pod_value;BMDL;Lower level of the Benchmark Dose (BMDL).
+98;bmd_value;BMD;Benchmark Dose (BMD).
+99;bmdu_value;BMDU;Upper level of the Benchmark Dose (BMDU).
+100;bmd_raw;BMD distribution;Distribution of the Benchmark Dose.
+101;selected_family;Selected family;Selected family of models after model fitting.
+102;reduced_chi_squared;Reduced Chi squared;Reduced Chi squared of the fitted model.
+103;bmdu_value;BMDU;Upper level of the Benchmark Dose (BMDU).
+104;fitted_dose_response;Fitted model;Fitted dose-Response model.
